@@ -1,17 +1,18 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ShortenRandom />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ShortenRandom from './components/ShortenRandom.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ShortenRandom
   }
 }
 </script>
